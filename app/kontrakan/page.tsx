@@ -12,10 +12,12 @@ export default function kontrakan() {
           </p>
         </div>
         <Image
-          src="/kontrakan1.jpg"
+          src="/Kontrakan1.jpg"
           alt="image here"
-          width={700}
+          priority
+          width={600}
           height={250}
+          style={{ width: "60%", height: "auto" }}
         />
       </section>
       <div className="hidden md:block w-full h-px bg-slate-200/50 mx-auto max-w-2xl shadow-xs"></div>
