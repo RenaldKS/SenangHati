@@ -71,7 +71,7 @@ export default function Facillities() {
           </div>
 
           <Image
-            src="images/Kontrakan1.jpg"
+            src="/images/Kontrakan1.jpg"
             alt="Gambar Rumah Tipe 1"
             width={350}
             height={150}
@@ -151,7 +151,7 @@ export default function Facillities() {
           </div>
 
           <Image
-            src="images/Kontrakan5.jpg"
+            src="/images/Kontrakan5.jpg"
             alt="Gambar Rumah Tipe 2 "
             width={350}
             height={150}
