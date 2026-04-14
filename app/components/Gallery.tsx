@@ -6,11 +6,11 @@ import { useState } from "react";
 // --- DATA DRIVEN AREA ---
 
 const kontrakanImages = [
-  { id: 1, src: "/Kontrakan1.jpg", alt: "Tampak Depan Kontrakan" },
-  { id: 2, src: "/Kontrakan2.jpg", alt: "Tampak Depan Kontrakan 2" },
-  { id: 3, src: "/Kontrakan3.jpg", alt: "Dapur" },
-  { id: 4, src: "/Kontrakan4.jpg", alt: "Kamar Mandi" },
-  { id: 6, src: "/Kontrakan6.jpg", alt: "Kamar Tidur" },
+  { id: 1, src: "/images/Kontrakan1.jpg", alt: "Tampak Depan Kontrakan" },
+  { id: 2, src: "/images/Kontrakan2.jpg", alt: "Tampak Depan Kontrakan 2" },
+  { id: 3, src: "/images/Kontrakan3.jpg", alt: "Dapur" },
+  { id: 4, src: "/images/Kontrakan4.jpg", alt: "Kamar Mandi" },
+  { id: 6, src: "/images/Kontrakan6.jpg", alt: "Kamar Tidur" },
 ];
 
 export default function Gallery() {

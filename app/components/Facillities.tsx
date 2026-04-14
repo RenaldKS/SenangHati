@@ -51,7 +51,7 @@ export default function Facillities() {
               </div>
               <div className="flex flex-col items-center text-center">
                 <Image
-                  src={"/icons/table.svg"}
+                  src={"/icons/Table.svg"}
                   alt="bed icon"
                   width={45}
                   height={45}
@@ -123,7 +123,7 @@ export default function Facillities() {
               </div>
               <div className="flex flex-col items-center text-center">
                 <Image
-                  src={"/icons/table.svg"}
+                  src={"/icons/Table.svg"}
                   alt="bed icon"
                   width={45}
                   height={45}
