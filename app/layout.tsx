@@ -8,7 +8,7 @@ const albertSans = Albert_Sans({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://senanghati.com"), // ganti kalau sudah deploy
+  metadataBase: new URL("https://senanghati.my.id"),
   title: {
     default: "Kontrakan Senang Hati",
     template: "%s | SenangHati",
@@ -19,8 +19,8 @@ export const metadata = {
     title: "SenangHati - Kontrakan Nyaman di Lampung Selatan/Bandar Lampung",
     description:
       "Hunian kontrakan yang tenang, aman, dan luas di lokasi strategis dekat Bandar Lampung.",
-    url: "https://senanghati.com",
-    images: ["/Kontrakan1.jpg"],
+    url: "https://senanghati.my.id",
+    images: ["images/Kontrakan1.jpg"],
   },
 };
 
