@@ -72,8 +72,7 @@ export default function Facillities() {
 
           <Image
             src="images/Kontrakan1.jpg"
-            alt="image here"
-            priority
+            alt="Gambar Rumah Tipe 1"
             width={350}
             height={150}
             className="shadow-lg  h-auto"
@@ -153,8 +152,7 @@ export default function Facillities() {
 
           <Image
             src="images/Kontrakan5.jpg"
-            alt="image here"
-            priority
+            alt="Gambar Rumah Tipe 2 "
             width={350}
             height={150}
             className="shadow-lg  h-auto"
