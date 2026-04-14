@@ -38,14 +38,14 @@ export default function Header() {
                 Home
               </li>
             </Link>
-            <Link href={"#gallery"}>
-              <li className="px-3 py-2 rounded-lg hover:bg-slate-200 hover:text-black">
-                Galeri
-              </li>
-            </Link>
             <Link href={"#facilities"}>
               <li className="px-3 py-2 rounded-lg hover:bg-slate-200 hover:text-black">
                 Fasilitas
+              </li>
+            </Link>
+            <Link href={"#gallery"}>
+              <li className="px-3 py-2 rounded-lg hover:bg-slate-200 hover:text-black">
+                Galeri
               </li>
             </Link>
             <Link href={"#location"}>
