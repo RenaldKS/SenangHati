@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Kontrakan nyaman, aman, dan luas di Jati Agung Lampung Selatan. Lokasi dekat Bandar Lampung dengan suasana hening, cocok untuk keluarga maupun pekerja.",
   openGraph: {
-    title: "Kontrakan Tenang & Nyaman di Jati Agung/Bandar Lampung",
+    title: "Kontrakan Senang Hati",
     description:
       "Hunian luas, aman, dan nyaman di Lampung Selatan dekat Bandar Lampung dengan suasana tenang dan strategis.",
     images: ["images/Kontrakan1.jpg"],
