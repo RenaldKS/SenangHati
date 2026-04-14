@@ -5,8 +5,7 @@ import Maps from "./components/Maps";
 import Footer from "./components/Footer";
 
 export const metadata = {
-  title:
-    "Kontrakan Tenang & Nyaman di Jati Agung Lampung Selatan/Bandar Lampung",
+  title: "Kontrakan Senang Hati",
   description:
     "Kontrakan nyaman, aman, dan luas di Jati Agung Lampung Selatan. Lokasi dekat Bandar Lampung dengan suasana hening, cocok untuk keluarga maupun pekerja.",
   openGraph: {
