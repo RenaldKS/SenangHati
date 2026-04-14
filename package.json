@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy": "ssh zeyrex@141.11.25.206 \"cd ~/apps/SenangHati && ./deploy.sh\""
   },
   "dependencies": {
     "lucide-react": "^1.8.0",

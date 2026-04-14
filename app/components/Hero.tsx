@@ -16,8 +16,8 @@ export default function Hero() {
           </p>
         </div>
         <Image
-          src="/Kontrakan1.jpg"
-          alt="image here"
+          src="/images/Kontrakan1.jpg"
+          alt="Kontrakan Hero Image"
           priority
           width={550}
           height={250}

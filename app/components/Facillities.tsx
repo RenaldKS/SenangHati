@@ -71,7 +71,7 @@ export default function Facillities() {
           </div>
 
           <Image
-            src="/Kontrakan1.jpg"
+            src="images/Kontrakan1.jpg"
             alt="image here"
             priority
             width={350}
@@ -152,7 +152,7 @@ export default function Facillities() {
           </div>
 
           <Image
-            src="/Kontrakan1.jpg"
+            src="images/Kontrakan5.jpg"
             alt="image here"
             priority
             width={350}
