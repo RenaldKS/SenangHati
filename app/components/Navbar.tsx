@@ -15,6 +15,11 @@ const albertSans = Albert_Sans({
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const phone = "6285291007948";
+
+  const message = encodeURIComponent(
+    "Halo, saya tertarik dengan Kontrakan Senang Hati. Bisa info lebih lanjut?",
+  );
   return (
     <>
       <header className="sticky top-0 z-50 bg-white">
@@ -56,15 +61,19 @@ export default function Header() {
           </ul>
 
           {/* BUTTON (ALWAYS VISIBLE) */}
-          <Link href={"https://wa.me/6285117067601"}>
-            <button className="px-4 py-2 rounded-lg bg-black text-white shadow-md hover:bg-slate-200 hover:text-black">
+          <a
+            href={`https://wa.me/${phone}?text=${message}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="px-4 py-2 rounded-lg bg-black text-white shadow-md hover:bg-slate-200 hover:text-black transition">
               Hubungi Kami
             </button>
-          </Link>
+          </a>
 
           {/* MOBILE DROPDOWN */}
           {isOpen && (
-            <div className="absolute top-full left-0 w-[25%] bg-teal-200 shadow-md md:hidden">
+            <div className="absolute top-full left-0 w-[35%] bg-slate-200 shadow-md md:hidden">
               <ul className="flex flex-col items-start p-4 gap-4 text-lg">
                 <Link href={"/"}>
                   <li>Home</li>

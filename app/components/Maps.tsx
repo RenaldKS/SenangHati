@@ -29,6 +29,10 @@ export default function Maps() {
             <div className="mt-5 space-y-2 text-sm text-gray-700">
               <p>📍 Lampung Selatan, Indonesia</p>
               <p>🚗 Akses kendaraan mudah</p>
+              <p>🤵 Renaldi (CP 1)</p>
+              <p>📞 +6285291007948</p>
+              <p>🙎‍♀️ Idawati (CP 2)</p>
+              <p>📞 +628127978564</p>
             </div>
           </div>
 

@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Albert_Sans } from "next/font/google";
 import Header from "@/app/components/Navbar";
+import FloatingWhatsApp from "./components/FloatingButton";
 
 const albertSans = Albert_Sans({
   subsets: ["latin"],
@@ -33,6 +34,7 @@ export default function RootLayout({
     <html lang="id">
       <body className={`${albertSans.className}`}>
         <Header />
+        <FloatingWhatsApp />
         {children}
       </body>
     </html>
